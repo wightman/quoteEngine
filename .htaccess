@@ -1,0 +1,4 @@
+authtype basic
+authname witNwisdom 
+authuserfile <somewhere outside of /var/www>/secretStuff.passwd
+require valid-user
