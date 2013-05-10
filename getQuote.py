@@ -6,8 +6,7 @@ cgitb.enable()
 import MySQLdb
 
 # Make the connection
-connection = MySQLdb.connect(host='192.168.2.201',user='witty',passwd='I l0ve 
-cs1073',db='witty')
+connection = MySQLdb.connect(host='host-ip',user='username',passwd='password',db='database_name')
 
 sql = "call getQuote()"
 
